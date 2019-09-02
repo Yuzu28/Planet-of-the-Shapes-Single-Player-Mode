@@ -1,0 +1,162 @@
+body{
+    /* background-color: aqua; */
+    background-image:url(https://img.freepik.com/free-photo/paint-drops-black-background_23-2147798308.jpg?size=626&ext=jpg); 
+
+    background-size: 100% 100%;
+
+}
+
+canvas{
+
+/* background-image:url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg"); */
+background-image:url(../img/shape2.gif); 
+
+background-size: 100% 100%;
+/* background-repeat:no-repeat; */
+/* background-size:cover; */
+}
+#canvas{
+    margin: 20px;
+    border: 5px solid white;
+}
+
+#startBtn{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.instructions {
+position: absolute;
+box-sizing: border-box;
+display: none;
+background: black;
+color: white;
+/* max-width: 500px;
+max-height: 200px; */
+margin: auto;
+font-size: 30px;
+border: 5px solid white;
+text-align: center;
+left: 68%;
+top: 4%;
+}
+
+.instructions {
+padding-top: 30px;
+}
+
+
+
+.instructions.active {
+display: block;
+}
+
+#game-over {
+    display: none;
+    text-align: center;
+    font-size: 38px;
+    /* padding-top: 92px; */
+    /* z-index: 1; */
+    /* width: 600px;
+    height: 360px; */
+    overflow: auto;
+    top: 30%;
+    left: 15%;
+    color: white;
+    /* margin: auto; */
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.button {
+    background-color: purple;
+    /* border: none; */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#startGame{
+    /* display: none; */
+    text-align: center;
+    font-size: 38px;
+    /* padding-top: 92px; */
+    /* z-index: 1; */
+    /* width: 600px;
+    height: 360px; */
+    overflow: auto;
+    top: 50%;
+    left: 25%;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    /* margin: auto; */
+    position: absolute;
+}
+
+.click{
+    color: greenyellow;
+}
+
+a:hover{
+    color: black;
+    background-color: #00cc00;
+
+
+}
+
+.home {
+    /* position: absolute;
+    top: 9%; */
+    padding: 1%;
+    background-color: greenyellow;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
