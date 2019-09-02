@@ -3,6 +3,10 @@
 
 # GamePlay
 
+<img src="https://github.com/Yuzu28/Planet-of-the-Shapes-Single-Player-Mode/blob/master/img/main.gif"  width="100%" height="100%">
+
+
+
 # Description
 
 A single player game mode I made to be incoporated in a our back-end project called Planet of the Shapes. 
