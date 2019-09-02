@@ -9,7 +9,7 @@
 
 # Description
 
-A single player game mode I made and designed to be incorporated in a our back-end project called Planet of the Shapes. In single player mode, the user head of to battle frontie and kill off opposing enemy shapes to advance to higher level. Also, there is a secret level called HELL MODE when a playe used up all their lives. 
+A single player game mode I made and designed to be incorporated in a our back-end project called Planet of the Shapes. In single player mode, the user head of to battle frontie and kill off opposing enemy shapes to advance to higher level. Also, there is a secret level called HELL MODE when a player used up all their lives. 
 
 # Technology Used
 
